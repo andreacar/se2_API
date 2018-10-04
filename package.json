@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node api.js",
+    //"start": "node client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/andreacar/se2_API#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0"
   }
 }
